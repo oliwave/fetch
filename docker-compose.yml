@@ -4,3 +4,5 @@ services:
     container_name: fetch
     volumes:
       - .:/app
+    environment:
+      - API_ENDPOINT_FILE=./api_endpoints.yml
