@@ -1,0 +1,6 @@
+services:
+  fetch:
+    build: .
+    container_name: fetch
+    volumes:
+      - .:/app
